@@ -7,7 +7,6 @@ import Counter from './assets/Counter'
 import { Navbar } from './components/Navbar'
 import About  from './pages/About';
 import Contact from './pages/Contact';
-import Skills from './pages/Skills';
 import State from './Hooks/State'
 import Hooks from './pages/Hooks'
 import Effect from './Hooks/Effect'
@@ -25,7 +24,6 @@ const App = () => {
         <Route path ='/home' element={<Home items={fruits}/>} />
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
-        <Route path='/skills' element={<Skills/>}/>
         <Route path='/hooks' element={<Hooks/>}/>
         <Route path='/state' element={<State/>}/>
         <Route path='/effect' element={<Effect/>}/>
