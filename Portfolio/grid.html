@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px 100px;
+        gap: 10px;
+      }
+      .header {
+        grid-column: 1 / 5;
+      }
+      .sidebar {
+        grid-row: 2 / 4;
+        grid-column: 1 / 2;
+      }
+      .content {
+        grid-row: 2 / 4;
+        grid-column: 2 / 5;
+      }
+      .footer {
+        grid-column: 1 / 5;
+      }
+      .child {
+        border: 2px solid rgb(136, 5, 90);
+        background-color: rgb(209, 89, 179);
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="child header">HEADER</div>
+      <div class="child sidebar">SIDEBAR</div>
+      <div class="child content">CONTENT</div>
+      <div class="child footer">FOOTER</div>
+    </div>
+  </body>
+</html>

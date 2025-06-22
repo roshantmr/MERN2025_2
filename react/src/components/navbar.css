@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #333;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .Link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .Link:hover {
+    color: #00bcd4;
+  }
+  
